@@ -524,3 +524,16 @@ input:checked + .slider:before {
         grid-template-columns: 1fr;
     }
 }
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.modal-content {
+  background: var(--card-bg-color);
+  color: var(--text-color);
+}
