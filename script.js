@@ -41,6 +41,23 @@ document.addEventListener('DOMContentLoaded', function() {
         ease: "power3.out"
     });
 
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray(".reveal").forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 60,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none none"
+        }
+      });
+    });
+
+
     // Scroll-based Animations
     const sections = gsap.utils.toArray('.content-section');
     sections.forEach(section => {
