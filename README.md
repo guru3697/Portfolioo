@@ -61,4 +61,4 @@ You need a web browser to view the website.
 
 Gurunadh Kothuru - [guruvenkat99@gmail.com](mailto:guruvenkat99@gmail.com)
 
-Project Link: [https://github.com/guru3697/Portfolio/](https://github.com/guru3697/Portfolio/)
+Project Link: [https://github.com/guru3697/Portfolio/](https://github.com/guru3697/Portfolioo/)
