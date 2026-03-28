@@ -1,279 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Gurunadh Kothuru | AI Engineer</title>
-
-<!-- SEO -->
-<meta name="description" content="AI Engineer with expertise in Machine Learning, Deep Learning, NLP, Computer Vision, and AWS. IEEE published researcher.">
-<meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, NLP, Computer Vision, AWS, Python">
-<meta name="author" content="Gurunadh Kothuru">
-
-<!-- Open Graph (LinkedIn) -->
-<meta property="og:title" content="Gurunadh Kothuru | AI Engineer">
-<meta property="og:description" content="AI Engineer | ML | NLP | Computer Vision | AWS">
-<meta property="og:image" content="assets/og-image.png">
-<meta property="og:type" content="website">
-
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurunadh Kothuru | AI Engineer</title>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
 
-<header class="header">
-<nav class="navbar">
-<a href="#home" class="nav-logo">GK</a>
-<ul class="nav-menu">
-<li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">GK</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="toggle-wrapper">
+                <input type="checkbox" id="t">
+                <label for="t" class="toggle">
+                    <div class="sky"></div>
+                    <div class="clouds-day">
+                        <svg viewBox="0 0 460 100"><path d="M0,100 C60,40 120,40 180,80 C240,30 300,30 360,70 C400,40 430,50 460,60 L460,100 Z" fill="#d9d9d9"/></svg>
+                        <svg class="layer2" viewBox="0 0 460 100"><path d="M0,100 C50,50 100,30 150,70 C200,20 260,20 320,60 C360,30 420,40 460,70 L460,100 Z" fill="#e5e5e5"/></svg>
+                        <svg class="layer3" viewBox="0 0 460 100"><path d="M0,100 C70,50 140,30 200,70 C260,20 320,30 380,60 C420,40 460,50 460,80 L460,100 Z" fill="#f0f0f0"/></svg>
+                    </div>
+                    <div class="clouds-night"></div>
+                    <div class="track">
+                        <dotlottie-wc class="sun-glow" src="https://lottie.host/0f4cf30f-ca6c-4426-a2ef-d164f641e759/a7ihP1859D.lottie" autoplay loop></dotlottie-wc>
+                        <div class="sun"></div>
+                        <div class="moon"></div>
+                    </div>
+                    <div class="stars">
+                        <dotlottie-wc src="https://lottie.host/8da63608-3e6d-47ce-ad68-fe2864aff7ae/8GqmUZaG4W.lottie" style="width:100%;height:100%" autoplay loop></dotlottie-wc>
+                    </div>
+                </label>
+            </div>
+        </nav>
+    </header>
 
-<!-- HERO -->
-<section id="home" class="hero-section">
-<div class="hero-content">
-<h1 class="reveal">KOTHURU GURUNADH</h1>
-<p class="reveal">Aspiring AI Engineer | ML | NLP | Computer Vision</p>
-<a href="assets/Gurunadh_Kothuru___Resume.pdf" target="_blank" class="cta-button reveal">View Resume</a>
-</div>
-</section>
+    <main>
+        <section id="home" class="hero-section">
+            <div id="particles-js"></div>
+            <div class="hero-content">
+                <h1 class="fade-in">KOTHURU GURUNADH</h1>
+                <p class="fade-in">Aspiring AI Engineer | Data & Machine Learning Enthusiast</p>
+                <div class="hero-links fade-in">
+                    <a href="https://github.com/guru3697" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/gurunadh-kothuru-0b3743217/" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="assets/Gurunadh_Kothuru___Resume.pdf" target="_blank" class="cta-button">View Resume</a>
+                </div>
+            </div>
+        </section>
 
-<!-- ABOUT -->
-<section id="about" class="content-section reveal">
-<h2 class="section-title">About Me</h2>
-<p class="text-center">
-AI Engineer with hands-on experience in Machine Learning, Deep Learning,
-Computer Vision, NLP, and AWS. IEEE-published researcher with strong
-problem-solving and deployment skills.
-</p>
-</section>
+        <section id="about" class="content-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>As an aspiring AI Engineer, I possess a genuine passion for exploring and mastering new concepts. My focus lies in AI, Data Engineering, and ML. I am enthusiastic about gaining valuable experience across diverse computer domains. I am known for my quick learning abilities and effectiveness as a team player. I am eagerly seeking enriching career prospects to contribute my skills and make a meaningful impact in the field.</p>
+                </div>
+                <div class="education-timeline">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <h4><a href="https://www.amrita.edu/campus/bengaluru/" target="_blank">Amrita School of Engineering</a></h4>
+                        <p>Bachelor of Technology (Artificial Intelligence Engineering) | 2020 - 2024</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4><a href="https://www.narayanagroup.com/" target="_blank">Narayana Junior College</a></h4>
+                        <p>Intermediate (MPC) | 2018 - 2020</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4><a href="https://kkrgowtham.com/" target="_blank">Dr. KKR's Gowtham</a></h4>
+                        <p>High School Education | 2017 - 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="content-section">
-<h2 class="section-title reveal">Projects</h2>
+    <div align="center">    
+        <section id="projects" class="content-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Visio-Voice: Transforming Images into Sound</h3>
+                    <p class="project-description">Developed a system to convert images into audio captions for visually impaired individuals, utilizing deep learning to generate descriptive audio from image inputs.</p>
+                    <p class="tech-stack"><strong>Technologies:</strong> Python, Deep Learning, NLP</p>
+                    <div class="project-links">
+                        <a href="https://github.com/guru3697/Visio-Voice" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Crowd Monitoring using Deep Learning</h3>
+                    <p class="project-description">Developed a fight detection system for crowd monitoring, using deep learning models to identify and monitor crowd behavior through computer vision techniques.</p>
+                    <p class="tech-stack"><strong>Technologies:</strong> Python, Deep Learning, Computer Vision</p>
+                     <div class="project-links">
+                        <a href="https://github.com/guru3697/Crowd-Monitoring" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>eKart: Cloud-based E-commerce Platform</h3>
+                    <p class="project-description">Developed a full-stack online shopping platform featuring a recommendation system, with the entire application deployed on Amazon Web Services for robust hosting.</p>
+                    <p class="tech-stack"><strong>Technologies:</strong> AWS, HTML, CSS</p>
+                     <div class="project-links">
+                        <a href="https://github.com/guru3697/eKart" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Heart Disease Prediction</h3>
+                    <p class="project-description">Predicted heart disease risk by applying machine learning algorithms to analyze key health features such as age, blood pressure, and cholesterol levels.</p>
+                    <p class="tech-stack"><strong>Technologies:</strong> Python, Machine Learning</p>
+                     <div class="project-links">
+                        <a href="https://github.com/guru3697/Heart-Disease-Prediction" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                 <div class="project-card">
+                    <h3>Maze Solving Using Morphological Operations</h3>
+                    <p class="project-description">Solved complex mazes by applying image processing techniques like erosion and dilation to identify the correct path from start to finish.</p>
+                    <p class="tech-stack"><strong>Technologies:</strong> Matlab, Image Processing</p>
+                     <div class="project-links">
+                        <a href="https://github.com/guru3697/Maze-Solving-Using-Morphological-Operations" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<div class="container">
-<div class="row justify-content-center g-4">
+        <section id="skills" class="content-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>scikit-learn</li>
+                        <li>NLTK</li>
+                        <li>OpenCV</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>AWS</li>
+                        <li>MATLAB</li>
+                        <li>Big Data Tools</li>
+                        <li>PowerBI</li>
+                    </ul>
+                </div>
+                 <div class="skill-category">
+                    <h3>Concepts</h3>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>DBMS</li>
+                        <li>LLMs</li>
+                        <li>RAG</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
 
-<!-- Visio Voice -->
-<div class="col-lg-4 col-md-6 reveal">
-<div class="project-card text-center">
-<img src="assets/visio.gif" class="project-img" alt="Visio Voice Demo">
-<h3>Visio-Voice</h3>
-<p>Image → Audio Captioning</p>
-<button class="project-link" data-bs-toggle="modal" data-bs-target="#visioModal">View Details</button>
-</div>
-</div>
+        <section id="certifications" class="content-section">
+             <h2 class="section-title">Certifications & Achievements</h2>
+             <div class="cert-achieve-grid">
+                 <div class="card">
+                     <h3>Certifications</h3>
+                     <ul>
+                         <li><a href="https://www.credly.com/badges/8c3952a8-f6d6-42cc-9f78-f402b4ae6d61/print" target="_blank">AWS Academy Graduate</a></li>
+                         <li><a href="https://www.udemy.com/certificate/UC-301694f0-2fda-496f-b7c9-7736242647b0/" target="_blank">HTML & CSS By Udemy</a></li>
+                         <li><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=cbe73bec-5755-470f-9e55-f4da23eb6771" target="_blank">Reinforcement Learning Onramp by Matlab</a></li>
+                     </ul>
+                 </div>
+                  <div class="card">
+                     <h3>IEEE Publications</h3>
+                     <ul>
+                         <li><a href="https://ieeexplore.ieee.org/document/10334225" target="_blank">Compiler For Mathematical Operations - CSITSS 2023</a></li>
+                         <li><a href="https://ieeexplore.ieee.org/document/10625333" target="_blank">Visio-Voice - ICITEICS 2024</a></li>
+                         <li><a href="https://ieeexplore.ieee.org/document/10585179" target="_blank">eKart on AWS - ICCICA 2024</a></li>
+                         <li><a href="https://ieeexplore.ieee.org/document/10673561" target="_blank">Energy Management System - APCIT 2024</a></li>
+                     </ul>
+                 </div>
+             </div>
+        </section>
 
-<!-- Crowd Monitoring -->
-<div class="col-lg-4 col-md-6 reveal">
-<div class="project-card text-center">
-<img src="assets/crowd.gif" class="project-img" alt="Crowd Monitoring Demo">
-<h3>Crowd Monitoring</h3>
-<p>Fight Detection System</p>
-<button class="project-link" data-bs-toggle="modal" data-bs-target="#crowdModal">View Details</button>
-</div>
-</div>
+        <section id="contact" class="content-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently seeking new opportunities. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:guruvenkat99@gmail.com">guruvenkat99@gmail.com</a></p>
+                <p>Phone: (+91) 8074899831</p>
+            </div>
+             <div class="social-links">
+                <a href="https://github.com/guru3697" target="_blank" class="social-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/gurunadh-kothuru-0b3743217/" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+             </div>
+        </section>
+    </main>
 
-<!-- eKart -->
-<div class="col-lg-4 col-md-6 reveal">
-<div class="project-card text-center">
-<img src="assets/ekart.gif" class="project-img" alt="eKart Demo">
-<h3>eKart (AWS)</h3>
-<p>Cloud E-commerce Platform</p>
-<button class="project-link" data-bs-toggle="modal" data-bs-target="#ekartModal">View Details</button>
-</div>
-</div>
+    <footer class="footer">
+        <p>&copy; 2025 Gurunadh Kothuru. All Rights Reserved.</p>
+    </footer>
 
-<!-- Heart Disease -->
-<div class="col-lg-4 col-md-6 reveal">
-<div class="project-card text-center">
-<img src="assets/heart.gif" class="project-img" alt="Heart Disease Prediction">
-<h3>Heart Disease Prediction</h3>
-<p>ML Health Risk Analysis</p>
-<button class="project-link" data-bs-toggle="modal" data-bs-target="#heartModal">View Details</button>
-</div>
-</div>
-
-<!-- Maze -->
-<div class="col-lg-4 col-md-6 reveal">
-<div class="project-card text-center">
-<img src="assets/maze.gif" class="project-img" alt="Maze Solving">
-<h3>Maze Solving</h3>
-<p>Image Processing Solution</p>
-<button class="project-link" data-bs-toggle="modal" data-bs-target="#mazeModal">View Details</button>
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="content-section">
-<h2 class="section-title reveal">Skills</h2>
-
-<div class="container">
-<div class="row justify-content-center text-center g-4 reveal">
-
-<div class="col-md-3 skill-category">
-<h3>Languages</h3>
-<ul><li>Python</li><li>SQL</li><li>HTML/CSS</li></ul>
-</div>
-
-<div class="col-md-3 skill-category">
-<h3>ML / DL</h3>
-<ul><li>TensorFlow</li><li>PyTorch</li><li>scikit-learn</li></ul>
-</div>
-
-<div class="col-md-3 skill-category">
-<h3>AI Domains</h3>
-<ul><li>NLP</li><li>Computer Vision</li><li>LLMs & RAG</li></ul>
-</div>
-
-<div class="col-md-3 skill-category">
-<h3>Tools</h3>
-<ul><li>AWS</li><li>Git</li><li>MATLAB</li></ul>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="content-section text-center reveal">
-<h2 class="section-title">Contact</h2>
-<p>Email: <a href="mailto:guruvenkat99@gmail.com">guruvenkat99@gmail.com</a></p>
-<p>Phone: +91 8074899831</p>
-</section>
-
-<footer class="footer">
-<p>© 2025 Gurunadh Kothuru</p>
-</footer>
-
-<!-- ================= MODALS ================= -->
-
-<!-- Visio Voice Modal -->
-<div class="modal fade" id="visioModal">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header"><h5>Visio-Voice</h5></div>
-<div class="modal-body">
-<p><strong>Problem:</strong> Visual content inaccessible to visually impaired users.</p>
-<p><strong>Solution:</strong> CNN + LSTM model generating spoken captions.</p>
-<p><strong>Tech:</strong> Inception-v3, LSTM, Python, gTTS</p>
-<p><strong>Impact:</strong> Improved accessibility using AI perception.</p>
-<a href="https://github.com/guru3697/Visio-Voice"
-   target="_blank"
-   class="btn-github">
-   GitHub Repository
-</a>
-
-</div>
-</div>
-</div>
-</div>
-
-<!-- Crowd Modal -->
-<div class="modal fade" id="crowdModal">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header"><h5>Crowd Monitoring</h5></div>
-<div class="modal-body">
-<p><strong>Problem:</strong> Detecting violent behavior in crowds.</p>
-<p><strong>Solution:</strong> YOLOv5-based real-time fight detection.</p>
-<p><strong>Tech:</strong> Python, OpenCV, YOLOv5</p>
-<p><strong>Impact:</strong> Enhanced public safety monitoring.</p>
-<a href="https://github.com/guru3697/Crowd-Monitoring"
-   target="_blank"
-   class="btn-github">
-   GitHub Repository
-</a>
-
-</div>
-</div>
-</div>
-</div>
-
-<!-- eKart Modal -->
-<div class="modal fade" id="ekartModal">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header"><h5>eKart on AWS</h5></div>
-<div class="modal-body">
-<p><strong>Problem:</strong> Scalable online shopping platform.</p>
-<p><strong>Solution:</strong> Cloud-based e-commerce system.</p>
-<p><strong>Tech:</strong> AWS EC2, S3, HTML, CSS</p>
-<p><strong>Impact:</strong> Deployed full-stack cloud solution.</p>
-<a href="https://github.com/guru3697/eKart"
-   target="_blank"
-   class="btn-github">
-   GitHub Repository
-</a>
-
-</div>
-</div>
-</div>
-</div>
-
-<!-- Heart Modal -->
-<div class="modal fade" id="heartModal">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header"><h5>Heart Disease Prediction</h5></div>
-<div class="modal-body">
-<p><strong>Problem:</strong> Early detection of heart disease.</p>
-<p><strong>Solution:</strong> ML models analyzing health metrics.</p>
-<p><strong>Tech:</strong> Python, scikit-learn</p>
-<p><strong>Impact:</strong> Improved medical risk assessment.</p>
-<a href="https://github.com/guru3697/Heart-Disease-Prediction"
-   target="_blank"
-   class="btn-github">
-   GitHub Repository
-</a>
-
-</div>
-</div>
-</div>
-</div>
-
-<!-- Maze Modal -->
-<div class="modal fade" id="mazeModal">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header"><h5>Maze Solving</h5></div>
-<div class="modal-body">
-<p><strong>Problem:</strong> Solving image-based mazes.</p>
-<p><strong>Solution:</strong> Morphological image processing pipeline.</p>
-<p><strong>Tech:</strong> MATLAB, Image Processing</p>
-<p><strong>Impact:</strong> Automated path extraction.</p>
-<a href="https://github.com/guru3697/Maze-Solving-Using-Morphological-Operations"
-   target="_blank"
-   class="btn-github">
-   GitHub Repository
-</a>
-
-</div>
-</div>
-</div>
-</div>
-
-<!-- Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
