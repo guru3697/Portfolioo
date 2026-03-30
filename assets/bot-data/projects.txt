@@ -1,0 +1,29 @@
+﻿Projects:
+1. Visio-Voice: Image to Audio for Visually Impaired.
+   - Developed an end-to-end accessibility pipeline using CNN for image feature extraction, LSTM for text generation, and gTTS for vocal output.
+   - Implemented data augmentation, model optimizations, and real-time caption workflows.
+   - GitHub: https://github.com/guru3697/Visio-Voice
+
+2. Crowd Monitoring using Deep Learning:
+   - Built a crowd behavior detection system using YOLO-style object detection and fight/event classification.
+   - Added alerting rules for abnormal motion and safety events in live camera feeds.
+   - GitHub: https://github.com/guru3697/Crowd-Monitoring
+
+3. eKart: Cloud-based E-commerce Platform:
+   - Full-stack online marketplace with product listing, cart, user auth, order flow and admin dashboard.
+   - Deployed on AWS with scalability and continuous integration pipeline.
+   - GitHub: https://github.com/guru3697/eKart
+
+4. Heart Disease Prediction:
+   - Built supervised ML pipeline to predict cardiovascular risk from clinical features (age, BP, cholesterol, ECG etc.).
+   - Used feature engineering, model evaluation, and explainability metrics.
+   - GitHub: https://github.com/guru3697/Heart-Disease-Prediction
+
+5. Maze Solving using Morphological Operations:
+   - Solved maze images using erosion and dilation to extract paths and compute optimal route.
+   - Applied computer vision algorithms (image preprocessing, contour detection, graph-based path finding).
+   - GitHub: https://github.com/guru3697/Maze-Solving-Using-Morphological-Operations
+
+6. University Course Re-registration System:
+   - Django + SQL system for student course selection, schedule validation, and enrollment workflow automation.
+   - Includes conflict checks, audit logs, and user-friendly interfaces.

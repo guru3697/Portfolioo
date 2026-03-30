@@ -1,0 +1,219 @@
+---
+
+ 🧠 Complete Profile Knowledge Base – Gurunadh Kothuru
+
+---
+
+ 🧑‍💼 Introduction / Profile Summary / About Me
+
+I am Gurunadh Kothuru, an aspiring AI Engineer and Machine Learning enthusiast, with a Bachelor of Technology in Artificial Intelligence Engineering from Amrita School of Engineering, Bangalore, with a GPA of 7.95.
+
+My core interests include Artificial Intelligence, Machine Learning, Data Science, Data Analytics, Natural Language Processing, and Large Language Models (LLMs). I am passionate about building real-world, impactful solutions using AI and continuously improving my knowledge in emerging technologies.
+
+I am known for being a quick learner, problem solver, and team player, and I enjoy working on challenging problems that require both analytical thinking and practical implementation.
+
+I am a fresher with no prior industry experience, and I am actively looking for a perfect opportunity that aligns with my profile, where I can apply my technical skills, gain hands-on experience, and contribute to meaningful projects.
+
+---
+
+ 🎓 Education Details
+
+ B.Tech – Artificial Intelligence Engineering
+  Amrita School of Engineering, Bangalore (2020–2024)
+  GPA: 7.95/10
+
+ Intermediate (MPC)
+  Narayana Junior College, Vijayawada
+  GPA: 8.98/10
+
+ High School
+  Dr. KKR’s Gowtham School, Vijayawada
+  GPA: 9.8/10
+
+---
+
+ 💻 Technical Skills / Tech Stack / Tools
+
+ Programming Languages
+
+ Python
+ SQL
+
+ Core Computer Science Concepts
+
+ Data Structures and Algorithms (DSA)
+ Object-Oriented Programming (OOP)
+ Database Management Systems (DBMS)
+
+ Frameworks & Libraries
+
+ TensorFlow
+ PyTorch
+ scikit-learn
+ NumPy
+ OpenCV
+ Django
+
+ Tools & Platforms
+
+ AWS (Amazon Web Services)
+ Power BI
+ Git
+ MATLAB
+
+ Areas of Interest / Domains
+
+ Data Science
+ Machine Learning
+ Deep Learning
+ Natural Language Processing (NLP)
+ Large Language Models (LLMs)
+ Retrieval-Augmented Generation (RAG)
+ Data Analytics
+
+---
+
+ 📜 Certifications / Courses
+
+ - AWS Academy Graduate (2023) - https://www.credly.com/badges/8c3952a8-f6d6-42cc-9f78-f402b4ae6d61/print
+ - HTML & CSS – Udemy (2022) - https://www.udemy.com/certificate/UC-301694f0-2fda-496f-b7c9-7736242647b0/
+ - Reinforcement Learning Onramp – MATLAB (2023) - https://matlabacademy.mathworks.com/progress/share/certificate.html?id=cbe73bec-5755-470f-9e55-f4da23eb6771
+
+---
+
+ 🚀 Projects / Hands-on Experience
+
+ 🔹 Visio-Voice: Image to Audio for Visually Impaired
+
+ Developed an AI-based system that converts images into audio descriptions
+ Used Deep Learning + NLP pipeline
+ Image feature extraction using CNN (Inception-based approach)
+ Sequence generation using LSTM
+ Text-to-speech using gTTS
+ Real-world impact: Accessibility for visually impaired individuals
+
+---
+
+ 🔹 Crowd Monitoring System using Deep Learning
+
+ Built a fight detection system using computer vision
+ Used deep learning models (YOLO-based approach)
+ Detects abnormal crowd behavior in real-time
+ Application: Public safety and surveillance
+
+---
+
+ 🔹 eKart: Cloud-Based E-commerce Platform
+
+ Developed a full-stack e-commerce website
+ Used HTML, CSS, JavaScript for frontend
+ Backend and deployment using AWS
+ Features: Product listing, user interaction, cloud hosting
+
+---
+
+ 🔹 Heart Disease Prediction using Machine Learning
+
+ Built a predictive ML model for disease risk analysis
+ Used features like age, blood pressure, cholesterol
+ Applied supervised learning algorithms
+ Focus: Healthcare analytics and decision support
+
+---
+
+ 🔹 Maze Solving using Image Processing
+
+ Solved maze problems using morphological operations
+ Techniques used: Erosion and Dilation
+ Automatically identifies correct path from image
+
+---
+
+ 🔹 University Course Re-registration System
+
+ Developed a web-based system using Django, SQL, and JavaScript
+ Simplifies course registration workflow for students
+ Focus: Automation and usability
+
+---
+
+ 📄 Research Publications / Academic Work
+
+ - Compiler for Mathematical Operations using English Sentences – CSITSS 2023 - https://ieeexplore.ieee.org/document/10334225
+ - Visio-Voice – ICITEICS 2024 - https://ieeexplore.ieee.org/document/10625333
+ - eKart Cloud Platform – ICCICA 2024 - https://ieeexplore.ieee.org/document/10585179
+ - Energy Management System using Deep Q Networks – APCIT 2024 - https://ieeexplore.ieee.org/document/10673561
+
+---
+
+ 💡 Strengths / Personal Traits
+
+ Quick learner and adaptable to new technologies
+ Strong problem-solving and analytical thinking
+ Team player with collaborative mindset
+ Passionate about AI and continuous learning
+ Ability to work on real-world projects
+
+---
+
+ ⚠️ Areas of Improvement / Weakness
+
+ Fresher with no industry experience
+ Actively improving through projects, research, and self-learning
+ Working on gaining more real-world exposure
+
+---
+
+ 🎯 Career Objective / Goals
+
+ To work as an AI/ML Engineer in a growth-oriented organization
+ To build scalable and impactful AI solutions
+ To specialize in NLP, LLMs, and data-driven systems
+ To continuously learn and contribute to cutting-edge technologies
+
+---
+
+ 🧩 Problem-Solving Approach / Work Style
+
+ Understand problem statement clearly
+ Break problem into smaller components
+ Choose appropriate algorithms/models
+ Implement using Python and ML frameworks
+ Evaluate using metrics and optimize performance
+ Focus on real-world usability
+
+---
+
+ 🤝 Teamwork / Collaboration
+
+ Comfortable working in teams
+ Contributed to academic and project collaborations
+ Open to feedback and continuous improvement
+ Good communication and coordination skills
+
+---
+
+ 📊 Common Hiring Attributes Covered (Keywords for RAG Mapping)
+
+ Introduction / About Me
+ Fresher Profile / Entry-Level Candidate
+ Technical Skills / Tech Stack
+ AI ML Engineer Skills
+ Python Developer Skills
+ Projects Explanation / Project Details
+ Deep Learning / NLP / Computer Vision
+ Research Experience / Publications
+ Strengths and Weaknesses
+ Career Goals / Future Plans
+ Problem Solving Skills
+ Team Player / Collaboration
+ Learning Ability / Adaptability
+ Why Hire Me / Value Proposition
+
+---
+
+ 🏁 Closing Statement
+
+I am a highly motivated fresher with strong fundamentals in AI and hands-on project experience, looking for an opportunity where I can learn, grow, and contribute effectively while working on real-world problems in Artificial Intelligence and Machine Learning.
+
+---
